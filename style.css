@@ -1,5 +1,5 @@
 html {
-    background: #ff785a;
+    background: #000000;
 }
 
 /* Bonus */
@@ -31,7 +31,7 @@ html:hover .spider {
 .spider .body {
     width: 200px;
     height: 160px;
-    background: #000;
+    background: #ffffff;
     position: relative;
     border-radius: 50%;
 }
@@ -41,7 +41,7 @@ html:hover .spider {
     height: 33px;
     position: absolute;
     bottom: 20px;
-    background: #fff;
+    background: #c03b3b;
     border-radius: 50%;
 }
 
@@ -71,7 +71,7 @@ html:hover .spider {
     height: 40px;
     margin-top: -20px;
     border: 5px solid transparent;
-    border-top-color: #000;
+    border-top-color: #ffffff;
     border-radius: 40px 40px 0 0;
 }
 
