@@ -24,13 +24,13 @@ html:hover .spider {
 .spider .spiderweb {
     width: 2px;
     height: 200px;
-    margin-left: 49px;
+    margin-left: 75px;
     background: rgba(255, 255, 255, 0.7);
 }
 
 .spider .body {
-    width: 200px;
-    height: 160px;
+    width: 150px;
+    height: 120px;
     background: #ffffff;
     position: relative;
     border-radius: 50%;
@@ -46,11 +46,11 @@ html:hover .spider {
 }
 
 .spider .body .eye.left {
-    left: 65px;
+    left: 25px;
 }
 
 .spider .body .eye.right {
-    right: 65px;
+    right: 25px;
 }
 
 .spider .body .eye:after {
@@ -67,7 +67,7 @@ html:hover .spider {
 }
 
 .spider .legs .leg {
-    width: 80px;
+    width: 160px;
     height: 40px;
     margin-top: -20px;
     border: 5px solid transparent;
