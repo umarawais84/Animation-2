@@ -2,7 +2,7 @@ html {
     background: #000000;
 }
 
-/* Bonus */
+
 html:hover .spider {
     top: -120%;
 }
@@ -13,11 +13,11 @@ html:hover .spider {
     top: 0;
     left: 30%;
 
-    /* 4. Animatie */
+    /* Swinging animation triggered by my mouses hover */
     animation: swing 5s infinite;
     transform-origin: top;
 
-    /* Bonus */
+    
     transition: 5s ease-in-out;
 }
 
@@ -62,7 +62,7 @@ html:hover .spider {
     margin: 55%;
     border-radius: 50%;
 
-    /* 3. Animatie */
+    
     animation: look 10s infinite;
 }
 
@@ -118,7 +118,7 @@ html:hover .spider {
     margin-left: -30px;
 }
 
-/* 1. Animatie */
+/* Animation for the spider */
 @keyframes look {
     0%, 40%, 100% {
         transform: translateX(0); 
@@ -130,7 +130,7 @@ html:hover .spider {
 }
 
 
-/* 3. Animatie */
+
 @keyframes swing {
     0%, 100% {
         transform: translateY(0);
